@@ -1,0 +1,27 @@
+{
+  "name": "learningsass",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "learning",
+    "sass"
+  ],
+  "author": "lautaro leonhardt",
+  "license": "UNLICENCED",
+  "devDependencies": {
+    "sass": "^1.49.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "bootstrap": "^5.1.3",
+    "postcss-cli": "^9.1.0"
+  }
+}

@@ -1,0 +1,11 @@
+/* Navbar */
+
+a.navbar-brand {
+    margin: 0;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 200ms ease-in;
+}
