@@ -1,11 +1,24 @@
-/* Navbar */
+@import "custom";
 
+
+/* Navbar */
 a.navbar-brand {
     margin: 0;
 }
 
-.nav-link:hover {
-    font-weight: 700;
-    font-size: 1.1rem;
+
+/* Mixin */
+@mixin hover-link ($f-weight, $f-size) {
+    font-weight: $f-weight;
+    font-size: $f-size;
     transition: all 200ms ease-in;
 }
+
+.nav-link:hover {
+    @include hover-link(map-get($font-weights, "bold"), 1.1rem);
+}
+
+.navbar-brand:hover {
+    @include hover-link(map-get($font-weights, "bolder"), 1.3rem);
+}
+
