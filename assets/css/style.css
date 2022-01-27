@@ -11119,7 +11119,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* MAP */
+/* Map */
+/* Mixin */
+/* Extend */
+.p, .p--lg, .p--md {
+  color: #212529;
+  font-weight: 400;
+}
+
+.p--md {
+  font-size: 1.1rem;
+}
+
+.p--lg {
+  font-size: 1.3rem;
+}
+
 /* Footer */
 .footer-list {
   list-style-type: none;
@@ -22264,7 +22279,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* MAP */
+/* Map */
+/* Mixin */
+/* Extend */
+.p, .p--lg, .p--md {
+  color: #212529;
+  font-weight: 400;
+}
+
+.p--md {
+  font-size: 1.1rem;
+}
+
+.p--lg {
+  font-size: 1.3rem;
+}
+
 /* Navbar */
 a.navbar-brand {
   margin: 0;

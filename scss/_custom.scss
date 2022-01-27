@@ -4,7 +4,7 @@ $primary: #6f42c1;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-/* MAP */
+/* Map */
 $font-weights:(
     "lighter": $font-weight-lighter,
     "light": $font-weight-light,
@@ -12,4 +12,27 @@ $font-weights:(
     "bold": $font-weight-bold,
     "bolder": $font-weight-bolder
 );
+
+/* Mixin */
+@mixin p-style() {
+    color: $gray-900;
+    font-weight: map-get($map: $font-weights, $key: "normal");
+}
+
+/* Extend */
+
+.p {
+    @include p-style();
+}
+
+.p--md {
+    @extend .p;
+    font-size: 1.1rem;
+}
+
+.p--lg {
+    @extend .p;
+    font-size: 1.3rem;
+}
+
 
